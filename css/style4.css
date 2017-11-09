@@ -1,0 +1,117 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Ectructura de cajas */
+header{
+	width: 93%;
+	margin-left: 2.5%;
+	height: 70px;
+	background-color: #F2F3E8;
+	padding-top: 30px;
+	padding-left: 2%;
+}
+
+nav{
+	width: 23%;
+	float:left;
+	background-color: #FCF9DA;
+	margin-left: 2.5%;
+	padding-left: 2%;
+	padding-top: 5px;
+
+}
+content{
+	width: 68%;
+	float: right;
+	background-color: white;
+	margin-right: 2.5%;
+	padding-top: 5px;
+	padding-left: 2%;
+}
+aside{
+    width: 23%;
+	float:left;
+	background-color: #B3AFAF;
+	margin-left: 2.5%;	
+	padding-top: 5px;
+	padding-left: 2%;
+}
+footer{
+	width: 93%;
+	margin-left: 2.5%;
+	height: 35px;
+	float: left;
+	background-color: #9D9C6F;
+	padding-top: 15px;
+	padding-left: 2%;
+	text-align: center;
+}
+
+/*Estilos de texto*/
+
+aside p{
+	margin-top: 10px;
+	font-family: Arial,Helvetica, sans-serif;
+}
+content p{
+   margin-top: 12px;	
+   font-family: Arial,Helvetica, sans-serif;
+   
+}
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: xx-large;
+  color: gray;
+  font-style: italic;
+  font-weight: 900;
+}
+
+h2{
+	font-family: Arial,Helvetica, sans-serif;
+}
+
+h3{
+	font-family: Arial,Helvetica, sans-serif;
+}
+
+/*Menú*/
+
+nav ul{
+	list-style-type: none;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+}
+nav ul li a:hover{	
+	color: gray;
+}
+
+/*
+p{
+	
+}
+Identificadores 
+#parrafo1{
+	text-transform: uppercase;
+}
+
+ clases
+.parrafo_cap{
+	text-transform: capitalize;
+	color: blue;
+}
+.sombra{
+	text-shadow: 5px;
+	text-align: center;
+}
+
+ Rutas
+ aside h2 {
+   color:red;
+ }
+
+*/
